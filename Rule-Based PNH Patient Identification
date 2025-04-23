@@ -1,0 +1,39 @@
+Briefing Document: Rule-Based PNH Patient Identification Tool
+________________________________________
+Project Overview:
+The objective is to develop a rule-based, web-based tool that enables healthcare professionals (HCPs) to screen patients during consultations and identify potential PNH (Paroxysmal Nocturnal Haemoglobinuria) cases using a structured algorithm.
+________________________________________
+Core Requirements:
+•	Rule-Based Engine:
+The logic follows the provided clinical algorithm exactly as structured in the attached in the file the file shared.
+•	Interactive HCP Interface:
+o	Web-based, intuitive UI designed for use in real-time during patient screening.
+o	YES/NO decision tree with clear navigation (YES answers on the right, NO on the left).
+o	Optimized for fast clinical use in outpatient settings.
+•	Report Generation: 
+o	A report to be generated after each screening session.
+o	The report should include:
+	Answers given
+	The decision path followed
+	Final recommendation:
+	“High Potential PNH Patient –”
+	“Might be potential”
+o	Report to be downloadable and printable (PDF preferred).
+•	Bulk Upload Feature:
+o	Ability to upload multiple patient entries via Excel/CSV.
+o	Tool should process the batch and return individual screening results and reports for each patient.
+________________________________________
+Deliverables Required in the Proposal:
+•	Technical approach and understanding of the project
+•	Solution design 
+•	Technology stack proposed
+•	Timeline and development milestones
+•	Visual mock-ups or wireframes (if possible)
+•	Hosting and deployment recommendations
+•	Cost estimate and payment terms
+•	Post-launch support and maintenance offering (if available)
+________________________________________
+Attachment Provided:
+•	PNH_Algorithm_Tree_Proper.xlsx
+Please use this file to guide the logic and structure of the rule-based decision tool.
+
