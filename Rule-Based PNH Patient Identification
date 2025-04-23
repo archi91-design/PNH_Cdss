@@ -32,6 +32,38 @@ Deliverables Required in the Proposal:
 •	Hosting and deployment recommendations
 •	Cost estimate and payment terms
 •	Post-launch support and maintenance offering (if available)
+
+
+1. Login/Authentication Page
+Purpose: Secure access for healthcare professionals.
+Features: Username, password fields, and a "Forgot Password" link.
+2. Dashboard
+Purpose: Overview of tool functionalities.
+Features: Navigation menu, recent activity, quick access buttons for screening, bulk upload, and report generation.
+3. Patient Screening Page
+Purpose: Real-time patient screening using the decision tree.
+Features:
+Patient Information Form: Fields for patient details (name, age, medical history).
+Decision Tree Interface: YES/NO questions with clear navigation (YES on the right, NO on the left).
+Progress Indicator: Visual representation of the screening progress.
+4. Screening Results Page
+Purpose: Display results of the screening session.
+Features:
+Summary of Answers: List of answers given during screening.
+Decision Path: Visual representation of the decision path followed.
+Final Recommendation: “High Potential PNH Patient” or “Might be potential”.
+Download/Print Report: Button to download or print the report in PDF format.
+5. Bulk Upload Page
+Purpose: Upload multiple patient entries for batch processing.
+Features:
+Upload Form: Fields to upload Excel/CSV files.
+Processing Indicator: Status of the batch processing.
+Results Summary: List of individual screening results and links to download reports.
+6. Reports Page
+Purpose: Access and manage generated reports.
+Features:
+Report List: Table of generated reports with patient names, screening dates, and download links.
+Search/Filter: Options to search and filter reports by date, patient name, or recommendation.
 ________________________________________
 Attachment Provided:
 •	PNH_Algorithm_Tree_Proper.xlsx
