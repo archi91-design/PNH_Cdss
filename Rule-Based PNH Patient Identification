@@ -236,3 +236,76 @@ Export Functionality: Options to export reports and data for further analysis.
 6. Feedback and Updates
 Feedback Form: Easy-to-use form for doctors to provide feedback on the system.
 Update Notifications: Inform users about new features and updates.
+To upload an Electronic Medical Record (EMR) report for a patient in a Clinical Decision Support System (CDSS), follow these steps:
+
+Steps for Uploading EMR Report
+1. Access the Patient Dashboard
+Navigate to the patient dashboard where you can view and manage patient records.
+2. Select the Patient
+Use the search bar or patient list to find and select the patient for whom you want to upload the EMR report.
+3. Open EMR Upload Section
+Click on the "Upload EMR Report" button or link within the patient’s profile.
+4. Upload EMR Report
+Choose File: Select the EMR report file from your computer.
+File Format: Ensure the file is in an acceptable format (e.g., PDF, DOCX, CSV).
+Upload Button: Click the "Upload" button to start the upload process.
+5. Data Parsing and Validation
+The system parses the uploaded file to extract relevant data.
+Validate the data to ensure it is correctly formatted and complete.
+6. Review and Confirm
+Review the extracted data for accuracy.
+Confirm the upload by clicking the "Confirm" button.
+7. Confirmation and Integration
+Display a confirmation message once the EMR report is successfully uploaded.
+Integrate the data into the patient’s record, making it accessible for future reference and decision support.
+8. Notification and Navigation
+Notify the user of successful upload.
+Provide options to view the uploaded report or return to the patient dashboard.
+UI Design Ideas
+1. Patient Dashboard
+Header: "Patient Dashboard"
+Search Bar: Input field to search for patients.
+Patient List: Display a list of patients with key details.
+Action Buttons: Buttons for actions like "View Profile," "Upload EMR Report," etc.
+2. EMR Upload Section
+Header: "Upload EMR Report"
+File Upload Area:
+Choose File: Button to select the file from the computer.
+File Format Info: Information on acceptable file formats.
+Upload Button: Button to start the upload process.
+Progress Indicator: Progress bar showing the upload status.
+Error Messages: Area to display any errors or validation issues with the uploaded file.
+3. Review and Confirmation
+Review Section: Display extracted data for review.
+Confirmation Message: "EMR report successfully uploaded."
+Navigation Options: Buttons to view the uploaded report or return to the patient dashboard.
+Example UI Mockups
+Patient Dashboard
+!Patient Dashboard
+
+EMR Upload Section
+!EMR Upload Section
+
+Review and Confirmation
+!Review and Confirmation
+
+Detailed UI Mockup Descriptions
+Patient Dashboard
+Header: "Patient Dashboard"
+Search Bar: Input field to search for patients by name or ID.
+Patient List: Table or list view displaying patient names, ages, and key details.
+Action Buttons: Buttons for actions like "View Profile," "Upload EMR Report," "Add New Patient," etc.
+EMR Upload Section
+Header: "Upload EMR Report"
+File Upload Area:
+Choose File: Button to select the EMR report file.
+File Format Info: Text indicating acceptable file formats (e.g., PDF, DOCX, CSV).
+Upload Button: Button to initiate the upload process.
+Progress Indicator: Progress bar showing the status of the upload.
+Error Messages: Area to display any errors or validation issues with the uploaded file.
+Review and Confirmation
+Review Section: Display the extracted data from the EMR report for review.
+Confirmation Message: "EMR report successfully uploaded."
+Navigation Options:
+View Report: Button to view the uploaded report.
+Return to Dashboard: Button to return to the patient dashboard.
